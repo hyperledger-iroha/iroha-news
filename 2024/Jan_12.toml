@@ -1,0 +1,34 @@
+year = "2024"
+date = "January 12, 2024"
+title = "Hyperledger Iroha Bi-Weekly News"
+delivered = [
+    "[`#3453`](https://github.com/hyperledger/iroha/issues/3453): Implement Store set, remove, and get operations in Client CLI",
+    "[`#3857`](https://github.com/hyperledger/iroha/issues/3857): Fix Eq/Ord for PermissionToken implementations",
+    "`#0000`: Fix smart contract debug print",
+    "[`#3068`](https://github.com/hyperledger/iroha/issues/3068): remove flattened events",
+    "[`#4155`](https://github.com/hyperledger/iroha/issues/4155): Ensure the secp256k1 signatures coming out of OpenSSL are normalized",
+    "[`#4133`](https://github.com/hyperledger/iroha/issues/4133): Fixed find trigger query",
+    "[`#4164`](https://github.com/hyperledger/iroha/issues/4164): Fix topology update on restart",
+    "[`#4105`](https://github.com/hyperledger/iroha/issues/4105): Rewrite the iroha_client_cli entry point using clap"
+]
+current_work = [
+    "Configuration RFC",
+    "[`#4126`](https://github.com/hyperledger/iroha/issues/4126): prevent cross-chain replay attacks",
+    "[`#3068`](https://github.com/hyperledger/iroha/issues/3068): DSL for event filters",
+    "[`#3657`](https://github.com/hyperledger/iroha/issues/3657): Split view changes from a standard message",
+    "[`#3871`](https://github.com/hyperledger/iroha/issues/3871): Register permissions",
+    "[`#2664`](https://github.com/hyperledger/iroha/issues/2664): Introduce new WSV",
+    "[`#4083`](https://github.com/hyperledger/iroha/issues/4083): Add profiler for Iroha",
+    "[`#4091`](https://github.com/hyperledger/iroha/issues/4091): Return pending transactions in batches",
+    "[`#4167`](https://github.com/hyperledger/iroha/issues/4167): Add transfer instructions for store asset",
+    "[`#4045`](https://github.com/hyperledger/iroha/issues/4045): Use concrete key types in Iroha crypto",
+    "Update Python SDK to the latest stable version",
+    "Migrating Rust integration test to Python",
+    "Migrate to `syn2`"
+]
+planned = [
+    "[`#3962`](https://github.com/hyperledger/iroha/issues/3962): Remove the permission tokens when unregistering an entity",
+    "[`#4119`](https://github.com/hyperledger/iroha/issues/4119): make query pagination useful with a query balancer",
+    "[`#3240`](https://github.com/hyperledger/iroha/issues/3240): Guard against secrets leakage",
+    "Oracle RFC"
+]

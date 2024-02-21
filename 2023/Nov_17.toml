@@ -1,0 +1,38 @@
+year = "2023"
+date = "November 17, 2023"
+title = "Hyperledger Iroha Bi-Weekly News"
+delivered = [
+    '[feature] [#3900](https://github.com/hyperledger/iroha/issues/3900): `fetch_size` query parameter',
+    '[feature] [#4041](https://github.com/hyperledger/iroha/issues/4041): Add git commit SHA to `client_cli` (#4042)',
+    '[refactor] [#3856](https://github.com/hyperledger/iroha/issues/3856): Procedural macro for default validator boilerplate',
+    '[fix] [#3826](https://github.com/hyperledger/iroha/issues/3826): Fix benchmarks build (#4019)',
+    '[fix] [#3995](https://github.com/hyperledger/iroha/issues/3995): Reset Sumeragi state based on block hash, not height',
+    '[documentation]: Fix the pytest-based tests documentation',
+    '[documentation]: Update lts/stable configs following a release',
+    '[refactor] [#3124](https://github.com/hyperledger/iroha/issues/3124): Introduced the `Query` request builder into the `Client` API',
+    '[refactor]: Optimise `Executor` (#4013)',
+    '[feature] [#3964](https://github.com/hyperledger/iroha/issues/3964): `application/x-parity-scale` response for `/status` (#3983)',
+    '[refactor] [#3640](https://github.com/hyperledger/iroha/issues/3640): place permission tokens in a separate module (#3940)',
+    '[fix] [#4014](https://github.com/hyperledger/iroha/issues/4014): Use method (not field) access in the client (#4015)',
+    '[feature] [#3929](https://github.com/hyperledger/iroha/issues/3929): Lazy queries inside WASM',
+    "[feature] [#3237](https://github.com/hyperledger/iroha/issues/3237): Expose cargo's output in `wasm_builder_cli` to have to build progress information",
+    'Updated [iroha-java](https://github.com/hyperledger/iroha-java) and [iroha-javascript](https://github.com/hyperledger/iroha-javascript) SDKs to work with Iroha2 RC20 LTS'
+]
+current_work = [
+    'Moving to syn2',
+    '[refactor] [#3982](https://github.com/hyperledger/iroha/issues/3982): Clear live queries after smart contract end',
+    '[refactor] [#3422](https://github.com/hyperledger/iroha/issues/3422): Ursa replacement (take apart Ursa since it reached EOF)',
+    '[fix] [#4057](https://github.com/hyperledger/iroha/issues/4057): Fix an issue with the query store message ordering',
+    '[feature] [#3974](https://github.com/hyperledger/iroha/issues/3974): Add subcommand into iroha_client_cli to transfer domains',
+    '[feature] [#3974](https://github.com/hyperledger/iroha/issues/3974): Add subcommands into iroha_client_cli to edit domain metadata',
+    '[feature] [#3871](https://github.com/hyperledger/iroha/issues/3871): Register<AssetDefinition> permissions',
+    'Fixing a loophole by deserialising the Expressions',
+    'Removing the Expression evaluation from the core into the Executor',
+    'Updating the Python SDK to work with Iroha2 RC20 LTS'
+]
+planned = [
+    'Fix the custom token granting bug',
+    'Configuration RFC',
+    'Oracle RFC',
+    'ISA restructuring'
+]

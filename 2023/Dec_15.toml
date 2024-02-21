@@ -1,0 +1,41 @@
+year = "2023"
+date = "December 15, 2023"
+title = "Hyperledger Iroha Bi-Weekly News"
+delivered = [
+    "[#4319](https://github.com/hyperledger/iroha/pull/4139): split `iroha_torii` from `iroha`",
+    "[#4140](https://github.com/hyperledger/iroha/issues/4140): Fix registration of new peer",
+    "[#4147](https://github.com/hyperledger/iroha/issues/4147): Export `iroha_config` through `iroha_client`",
+    "[#4149](https://github.com/hyperledger/iroha/issues/4149): Export `iroha_crypto` through `iroha_client`",
+    "[#4089](https://github.com/hyperledger/iroha/pull/4089): Remove expressions",
+    "[#4130](https://github.com/hyperledger/iroha/pull/4130): On-chain predictable iteration order",
+    "[#3934](https://github.com/hyperledger/iroha/issues/3934): Migrate `iroha_wasm_derive` and iroha_validator_derive` to syn 2.0",
+    "[#4100](https://github.com/hyperledger/iroha/pull/4100): re-architect logger and dynamic configuration",
+    "[#4096](https://github.com/hyperledger/iroha/pull/4096): Fix having to pass `IROHA_SKIP_WASM_CHECKS` env variable with true",
+    "[#4129](https://github.com/hyperledger/iroha/pull/4129): apply most recent `clippy` suggestions",
+    "[#4120](https://github.com/hyperledger/iroha/issues/4120): Do not use the `tungstenite` re-exported from `tokio_tungstenite`",
+    "[#4099](https://github.com/hyperledger/iroha/issues/4099): Fix the `WebSocket` request builder"
+]
+current_work = [
+    "[#3068](https://github.com/hyperledger/iroha/issues/3068): `DSL` for event filters",
+    "[#3857](https://github.com/hyperledger/iroha/issues/3857): Fix `Eq/Ord` for PermissionToken implementations",
+    "[#3657](https://github.com/hyperledger/iroha/issues/3657): Split view changes from a normal message",
+    "[#3871](https://github.com/hyperledger/iroha/issues/3871): Register permissions",
+    "[#2664](https://github.com/hyperledger/iroha/issues/2664): Introduce new `WSV`",
+    "[#4083](https://github.com/hyperledger/iroha/issues/4083): Add profiler for Iroha",
+    "[#4105](https://github.com/hyperledger/iroha/issues/4105): Rewrite the `iroha_client_cli` entry point using `clap`",
+    "[#4091](https://github.com/hyperledger/iroha/issues/4091): Return pending transactions in batches",
+    "[#4133](https://github.com/hyperledger/iroha/issues/4133): Fix find trigger query",
+    "Update Python SDK to the latest stable version",
+    "Migrating Rust integration test to Python",
+    "Enhancements of `iroha_client_cli`",
+    "Migrate to `syn2`"
+]
+planned = [
+    "[#4126](https://github.com/hyperledger/iroha/issues/4126): prevent cross-chain replay attacks",
+    "[#3962](https://github.com/hyperledger/iroha/issues/3962): Remove the permission tokens when unregistering an entity",
+    "[#4119](https://github.com/hyperledger/iroha/issues/4119): make query pagination useful with a query balancer",
+    "Fix the custom token granting bug",
+    "Configuration RFC",
+    "Oracle RFC",
+    "ISA restructuring"
+]
