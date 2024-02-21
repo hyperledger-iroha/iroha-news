@@ -1,0 +1,41 @@
+year = "2024"
+date = "January 20, 2024"
+title = "Hyperledger Iroha Bi-Weekly News"
+delivered = [
+    "Finalize transition to syn2",
+    "[`#3871`](https://github.com/hyperledger/iroha/issues/3871): Register<AssetDefinition>`/`Register<Account> permissions ([`#4049`](https://github.com/hyperledger/iroha/pull/4049))",
+    "[`#4211`](https://github.com/hyperledger/iroha/issues/4211): Fix the async blocking bug when starting Sumeragi",
+    "[`#4162`](https://github.com/hyperledger/iroha/issues/4162): make SignedTransaction immutable",
+    "[`#4126`](https://github.com/hyperledger/iroha/issues/4126): Add chain_id to prevent replay attacks ([`#4185`](https://github.com/hyperledger/iroha/pull/4185))",
+    "[`#3974`](https://github.com/hyperledger/iroha/issues/3974): Add subcommands into iroha_client_cli to edit domain metadata ([`#4175`](https://github.com/hyperledger/iroha/pull/4175))",
+    "[`#4184`](https://github.com/hyperledger/iroha/issues/4184): Bump to 2024-01-12 toolchain ([`#4196`](https://github.com/hyperledger/iroha/pull/4196))",
+    "[`#4177`](https://github.com/hyperledger/iroha/issues/4177): Fixed (get|set)_config 401 HTTP. Added Client's headers to the requests"
+]
+current_work = [
+    "Configuration RFC",
+    "[`#3962`](https://github.com/hyperledger/iroha/issues/3962): Remove the permission tokens when unregistering an entity",
+    "[`#4116`](https://github.com/hyperledger/iroha/issues/4116): Response from /status Endpoint Not in Expected Binary Format",
+    "[`#4082`](https://github.com/hyperledger/iroha/issues/4082): Executor: validate by value, not by reference",
+    "[`#3281`](https://github.com/hyperledger/iroha/issues/3281): Remove redundant errors from Queue and Transaction",
+    "[`#3535`](https://github.com/hyperledger/iroha/issues/3535): Standardize Iroha schema",
+    "[`#4195`](https://github.com/hyperledger/iroha/issues/4195): Remove non-orthogonality from event filters",
+    "[`#3068`](https://github.com/hyperledger/iroha/issues/3068): DSL for event filters",
+    "[`#3657`](https://github.com/hyperledger/iroha/issues/3657): Split view changes from a standard message",
+    "[`#2664`](https://github.com/hyperledger/iroha/issues/2664): Introduce new WSV",
+    "[`#4083`](https://github.com/hyperledger/iroha/issues/4083): Add profiler for Iroha",
+    "[`#4091`](https://github.com/hyperledger/iroha/issues/4091): Return pending transactions in batches",
+    "[`#4167`](https://github.com/hyperledger/iroha/issues/4167): Add transfer instructions for store asset",
+    "[`#4045`](https://github.com/hyperledger/iroha/issues/4045): Use concrete key types in Iroha crypto",
+    "Update Python SDK to the latest stable version",
+    "Migrating Rust integration test to Python"
+]
+planned = [
+    "[`#4119`](https://github.com/hyperledger/iroha/issues/4119): make query pagination useful with a query balancer",
+    "[`#3240`](https://github.com/hyperledger/iroha/issues/3240): Guard against secrets leakage",
+    "Ensure that smart contracts VM can be swapped",
+    "Ensure data model versioning works as expected",
+    "Final data model revision: split into multiple (client/node, client/executor, executor/node)",
+    "Final data model revision: control what is visible from public crates (e.g. from client)",
+    "Final data model revision: structural review",
+    "Oracle RFC"
+]

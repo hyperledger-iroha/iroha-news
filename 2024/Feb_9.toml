@@ -1,0 +1,33 @@
+year = "2024"
+date = "February 9, 2024"
+title = "Hyperledger Iroha Bi-Weekly News"
+delivered = [
+    "[#3962](https://github.com/hyperledger/iroha/issues/3962): Remove the permission tokens when unregistering an entity",
+    "[#4116](https://github.com/hyperledger/iroha/issues/4116): Response from `/status` Endpoint Not in Expected Binary Format",
+    "[#3657](https://github.com/hyperledger/iroha/issues/3657): Split view changes from a standard message",
+    "[#4083](https://github.com/hyperledger/iroha/issues/4083): Add a profiler for Iroha",
+    "[#4091](https://github.com/hyperledger/iroha/issues/4091): Modify pending_transactions endpoint to return only matching",
+    "[#4045](https://github.com/hyperledger/iroha/issues/4045): Use concrete key types in Iroha crypto"
+]
+current_work = [
+    "Configuration RFC",
+    "[#4082](https://github.com/hyperledger/iroha/issues/4082): Executor: validate by value, not by reference",
+    "[#3281](https://github.com/hyperledger/iroha/issues/3281): Remove the redundant errors from Queue and Transaction",
+    "[#3535](https://github.com/hyperledger/iroha/issues/3535): Standardize the Iroha 2 schema",
+    "[#4195](https://github.com/hyperledger/iroha/issues/4195): Remove non-orthogonality from event filters",
+    "[#2664](https://github.com/hyperledger/iroha/issues/2664): Introduce new WSV",
+    "[#4167](https://github.com/hyperledger/iroha/issues/4167): Add transfer instructions for store asset",
+    "Update Python SDK to the latest stable version",
+    "Migrating Rust integration test to Python",
+    "Arbitrary precision arithmetic support",
+    "The removal of Genesis signing out of Iroha"
+]
+planned = [
+    "[#4119](https://github.com/hyperledger/iroha/issues/4119): Make query pagination useful with a query balancer",
+    "[#3240](https://github.com/hyperledger/iroha/issues/3240): Guard against secrets leakage",
+    "Ensure the possibility of swapping the smart contract VM",
+    "Ensure the data model versioning works as expected",
+    "The final revision of the data model: split (`client`/`node`, `client`/`executor`, `executor`/`node`)",
+    "The final revision of the data model: control what is visible from public crates (e.g. from client)",
+    "Oracle RFC",
+]

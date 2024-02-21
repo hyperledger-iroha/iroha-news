@@ -1,0 +1,40 @@
+year = "2023"
+date = "December 12, 2023"
+title = "Hyperledger Iroha Bi-Weekly News"
+delivered = [
+    "[#4057](https://github.com/hyperledger/iroha/issues/4057): Fix query store message ordering issue",
+    "[#3422](https://github.com/hyperledger/iroha/issues/3422): Replaceme Ursa (take apart Ursa since it reached EOF)",
+    "[#3982](https://github.com/hyperledger/iroha/issues/3982): Clear live queries after smart contract end",
+    "[#4060](https://github.com/hyperledger/iroha/issues/4060): add support for boxed slices in FFI",
+    "[#4070](https://github.com/hyperledger/iroha/issues/4070): Enable `tls-rustls-native-roots` `iroha_client` feature by default",
+    "[#4065](https://github.com/hyperledger/iroha/issues/4065): Prevent pub key spoofing in TCP handshake",
+    "[#3974](https://github.com/hyperledger/iroha/issues/3974): Add subcommand into `iroha_client_cli` to transfer domains",
+    "[#4084](https://github.com/hyperledger/iroha/issues/4084): The NumericValue suffix is mandatory for all variants",
+    "[#4097](https://github.com/hyperledger/iroha/issues/4097): Fix warp noise in logs",
+    "[#4106](https://github.com/hyperledger/iroha/issues/4106): Fix trigger atomicity",
+    "[#4080](https://github.com/hyperledger/iroha/issues/4080): Export data model through `iroha_client`",
+    "[#3858](https://github.com/hyperledger/iroha/issues/3858): Remove smart contract formatting from build scripts"
+]
+current_work = [
+    "[#3871](https://github.com/hyperledger/iroha/issues/3871): Register<AssetDefinition> permissions",
+    "`#0000`: On-chain predictable iteration order",
+    "[#3941](https://github.com/hyperledger/iroha/issues/3941), [#3612](https://github.com/hyperledger/iroha/issues/3612): Remove expressions",
+    "[#3657](https://github.com/hyperledger/iroha/issues/3657): Split view changes from normal messages",
+    "[#4030](https://github.com/hyperledger/iroha/issues/4030), [#4063](https://github.com/hyperledger/iroha/issues/4063), [#4064](https://github.com/hyperledger/iroha/issues/4064), [#4079](https://github.com/hyperledger/iroha/issues/4079): re-architect logger and dynamic configuration",
+    "[#2664](https://github.com/hyperledger/iroha/issues/2664): Introduce new WSV",
+    "[#3068](https://github.com/hyperledger/iroha/issues/3068): DSL for event filters",
+    "[#3857](https://github.com/hyperledger/iroha/issues/3857): Fix Eq`/`Ord for PermissionToken implementations",
+    "[#4091](https://github.com/hyperledger/iroha/issues/4091): return pending transactions in batches",
+    "[#3901](https://github.com/hyperledger/iroha/issues/3901): move `NewParameter` into `Executor`",
+    "enhancements of iroha client CLI",
+    "update to `syn2`"
+]
+planned = [
+    "[#4126](https://github.com/hyperledger/iroha/issues/4126): prevent cross-chain replay attacks",
+    "[#3962](https://github.com/hyperledger/iroha/issues/3962): permission tokens aren't removed when unregistering an entity",
+    "[#4119](https://github.com/hyperledger/iroha/issues/4119): make query pagination useful with a query balancer",
+    "Fix the custom token granting bug",
+    "Configuration RFC",
+    "Oracle RFC",
+    "ISA restructuring"
+]
