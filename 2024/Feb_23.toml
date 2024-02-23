@@ -1,0 +1,34 @@
+year = "2024"
+date = "February 23, 2024"
+title = "Hyperledger Iroha Bi-Weekly News"
+delivered = [
+    "[feature] [`#3354`](https://github.com/hyperledger/iroha/issues/3354) Different fuel limit for `Executor`",
+    "[refactor] introduce additional `client_cli` tests",
+    "[refactor] [`#4161`](https://github.com/hyperledger/iroha/issues/4161) rewrite config, _minimally_ (#4239)",
+    "[refactor] [`#4277`](https://github.com/hyperledger/iroha/issues/4277) Infallible key pair generation (#4283)",
+    "[refactor] [`#4174`](https://github.com/hyperledger/iroha/issues/4174) Stop encoding `X25519` keys as `Ed25519`",
+    "[feature] [`#4167`](https://github.com/hyperledger/iroha/issues/4167) Add transfer instructions for store asset",
+    "[refactor] #3887 Hide an internal structure of the versioned structs from the public API.",
+    "[feature] [`#3714`](https://github.com/hyperledger/iroha/issues/3714) Signature validation in `no_std` (#4270)",
+    "[feature] [`#4083`](https://github.com/hyperledger/iroha/issues/4083) Add profiling support (#4250)",
+]
+current_work = [
+    "[`#4082`](https://github.com/hyperledger/iroha/issues/4082) Executor: validate by value, not by reference",
+    "[`#3535`](https://github.com/hyperledger/iroha/issues/3535) Standardize the Iroha 2 schema",
+    "[`#2664`](https://github.com/hyperledger/iroha/issues/2664) Introduce new `WSV`",
+    "[feature] [`#4309`](https://github.com/hyperledger/iroha/issues/4309) Forbid registration of accounts without any signatory",
+    "[refactor] [`#1981`](https://github.com/hyperledger/iroha/issues/1981) Improve the `EventFilter` API",
+    "[refactor] [`#4225`](https://github.com/hyperledger/iroha/issues/4225) Remove genesis signing",
+    "[refactor] [`#3901`](https://github.com/hyperledger/iroha/issues/3901) Move NewParameter `ISI` into `Executor`",
+    "[feature] [`#3660`](https://github.com/hyperledger/iroha/issues/3660) Arbitrary precision arithmetic assets",
+    "[refactor]: Remove a `Value` enum",
+    "[`#2085`](https://github.com/hyperledger/iroha/issues/2085) Add primary key to account",
+]
+planned = [
+    "[`#3240`](https://github.com/hyperledger/iroha/issues/3240) Guard against secrets leakage",
+    "Ensure the possibility of swapping the smart contract VM",
+    "Ensure the data model versioning works as expected",
+    "The final revision of the data model: split (client/node, client/executor, executor/node)",
+    "The final revision of the data model: control what is visible from public crates (e.g. from client)",
+    "Oracle RFC"
+]
