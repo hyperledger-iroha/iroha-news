@@ -1,0 +1,30 @@
+year = "2024"
+date = "March 8, 2024"
+title = "Hyperledger Iroha Bi-Weekly News"
+delivered = [
+    "[refactor]: Remove Value enum",
+    "[feature] [`#3660`](https://github.com/hyperledger/iroha/issues/3660): Add Numeric type",
+    "[refactor] [`#4229`](https://github.com/hyperledger/iroha/issues/4229): Removed MST aggregation",
+    "[fix] [`#4082`](https://github.com/hyperledger/iroha/issues/4082): Remove cloning for ISI and query execution in wasm (#4182)",
+    "[fix] [`#4287`](https://github.com/hyperledger/iroha/issues/4287): use algorithm in PrivateKey serialized form (#4326)",
+    "[feature] [`#4212`](https://github.com/hyperledger/iroha/issues/4212): Prevent account registration without signatures",
+    "[ci]: Migrate to AWS spot runners CI (#4306)"
+]
+current_work = [
+    "[`#3535`](https://github.com/hyperledger/iroha/issues/3535): Standardize the Iroha 2 schema",
+    "[`#2664`](https://github.com/hyperledger/iroha/issues/2664): Introduce new WSV",
+    "[`#1981`](https://github.com/hyperledger/iroha/issues/1981): Improve the EventFilter API",
+    "[`#4225`](https://github.com/hyperledger/iroha/issues/4225): Remove genesis signing",
+    "[`#3901`](https://github.com/hyperledger/iroha/issues/3901): Move NewParameter ISI into Executor",
+    "[`#2085`](https://github.com/hyperledger/iroha/issues/2085): Add primary key to account",
+    "[`#3262`](https://github.com/hyperledger/iroha/issues/3262): time trigger first execution time",
+    "[`#4244`](https://github.com/hyperledger/iroha/issues/4244): API for altering roles"
+]
+planned = [
+    "[`#3240`](https://github.com/hyperledger/iroha/issues/3240): Guard against secrets leakage",
+    "Ensure the possibility of swapping the smart contract VM",
+    "Ensure the data model versioning works as expected",
+    "The final revision of the data model: split (client/ node, client/executor, executor/node)",
+    "The final revision of the data model: control what is visible from public crates (e.g. from client)",
+    "Oracle RFC"
+]
