@@ -1,0 +1,28 @@
+year = "2024"
+date = "April 5, 2024"
+title = "Hyperledger Iroha Bi-Weekly News"
+delivered = [
+    "[refactor] [`#2664`](https://github.com/hyperledger/iroha/issues/2664): Introduce new WSV",
+    "[refactor] [`#1981`](https://github.com/hyperledger/iroha/issues/1981): Improve the EventFilter API",
+    "[feature] [`#4244`](https://github.com/hyperledger/iroha/issues/4244): API for altering roles",
+    "[fix] [`#4395`](https://github.com/hyperledger/iroha/issues/4395): Fix MinSize for ChaCha20Poly1305",
+    "[BACKPORT] [`#4390`](https://github.com/hyperledger/iroha/issues/4390): include trigger id in trigger entrypoint",
+    "[fix] [`#4403`](https://github.com/hyperledger/iroha/issues/4403): Trigger metadata is accessible in smart contracts",
+    "[refactor] [`#4315`](https://github.com/hyperledger/iroha/issues/4315): split pipeline events",
+]
+current_work = [
+    "[`#3535`](https://github.com/hyperledger/iroha/issues/3535): Standardize the Iroha 2 schema",
+    "[`#4225`](https://github.com/hyperledger/iroha/issues/4225): Remove genesis signing",
+    "[`#3901`](https://github.com/hyperledger/iroha/issues/3901): Move NewParameter ISI into Executor",
+    "[`#2085`](https://github.com/hyperledger/iroha/issues/2085): Add primary key to account",
+    "[`#3262`](https://github.com/hyperledger/iroha/issues/3262): time trigger first execution time",
+    "[`#4368`](https://github.com/hyperledger/iroha/issues/4368): VRFs for sumeragi",
+]
+planned = [
+    "[`#3240`](https://github.com/hyperledger/iroha/issues/3240): Guard against secrets leakage",
+    "Ensure the possibility of swapping the smart contract VM",
+    "Ensure the data model versioning works as expected",
+    "The final revision of the data model: split (client/ node, client/executor, executor/node)",
+    "The final revision of the data model: control what is visible from public crates (e.g. from client)",
+    "Oracle RFC"
+]
