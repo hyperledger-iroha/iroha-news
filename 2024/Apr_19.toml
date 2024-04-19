@@ -1,0 +1,37 @@
+year = "2024"
+date = "April 19, 2024"
+title = "Hyperledger Iroha Bi-Weekly News"
+delivered = [
+    "[chore]: bump version to 2.0.0-pre-rc.21 ([#4484](https://github.com/hyperledger/iroha/pull/4484))",
+    "[refactor] [`#3240`](https://github.com/hyperledger/iroha/issues/3240): Guard against secrets leakage ([#4457](https://github.com/hyperledger/iroha/pull/4457))",
+    "[ci] [`#4475`](https://github.com/hyperledger/iroha/issues/4475): bump rust toolchain and dependencies ([#4476](https://github.com/hyperledger/iroha/pull/4476))",
+    "[fix] [`#4332`](https://github.com/hyperledger/iroha/issues/4332): Remove corresponding triggers on Unregister<Domain> ([#4461](https://github.com/hyperledger/iroha/pull/4461))",
+    "[fix] [`#4253`](https://github.com/hyperledger/iroha/issues/4253): Check genesis pub key in genesis round ([#4413](https://github.com/hyperledger/iroha/pull/4413))",
+    "[ci]: Configure Sonarqube and Defectdojo in iroha2 CI ([#4414](https://github.com/hyperledger/iroha/pull/4414))",
+    "[fix] [`#4226`](https://github.com/hyperledger/iroha/issues/4226): Prevent registering genesis Domain or Account ([#4427](https://github.com/hyperledger/iroha/pull/4427))",
+    "[fix] [`#4242`](https://github.com/hyperledger/iroha/issues/4242): Remove permissions from roles on entity unregistration ([#4407](https://github.com/hyperledger/iroha/pull/4407))",
+    "[fix] [`#4267`](https://github.com/hyperledger/iroha/issues/4267): Remove permissions from roles on entity unregistration ([#4407](https://github.com/hyperledger/iroha/pull/4407))",
+    "[fix] [`#4403`](https://github.com/hyperledger/iroha/issues/4403): Trigger metadata is accessible in smart contracts ([#4405](https://github.com/hyperledger/iroha/pull/4405))",
+    "[fix] [`#4395`](https://github.com/hyperledger/iroha/issues/4395): Fix MinSize for ChaCha20Poly1305 ([#4396](https://github.com/hyperledger/iroha/pull/4396))",
+    "[refactor] [`#4387`](https://github.com/hyperledger/iroha/issues/4387): Send blocks to observing peers ([#4392](https://github.com/hyperledger/iroha/pull/4392))",
+    "`main` branch is now `iroha1-main` (`develop` branch removed)",
+    "`iroha2-stable` is now `stable` branch (likely to be removed)",
+    "`iroha2-dev` is now `main` branch"
+]
+current_work = [
+    "[`#3535`](https://github.com/hyperledger/iroha/issues/3535): Standardize the Iroha 2 schema",
+    "[`#4225`](https://github.com/hyperledger/iroha/issues/4225): Remove genesis signing",
+    "[`#3901`](https://github.com/hyperledger/iroha/issues/3901): Move NewParameter ISI into Executor",
+    "[`#2085`](https://github.com/hyperledger/iroha/issues/2085): Add primary key to account",
+    "[`#3262`](https://github.com/hyperledger/iroha/issues/3262): time trigger first execution time",
+    "[`#4368`](https://github.com/hyperledger/iroha/issues/4368): VRFs for sumeragi",
+    "[`#4227`](https://github.com/hyperledger/iroha/issues/4227): Support encoding/decoding to/from JSON in `parity_scale_decoder`",
+    "[`#4282`](https://github.com/hyperledger/iroha/issues/4282): Immutable configuration",
+]
+planned = [
+    "Ensure the possibility of swapping the smart contract VM",
+    "Ensure the data model versioning works as expected",
+    "The final revision of the data model: split (client/ node, client/executor, executor/node)",
+    "The final revision of the data model: control what is visible from public crates (e.g. from client)",
+    "Oracle RFC"
+]
